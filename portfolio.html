@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="port.css">
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+    <div class="nav">
+      <div class="logo" >
+        <p>Pixcel <br>Interiors</p>
+        <span></span>
+        <div class="ddiq">
+          <p>Design <br>Decor <br>Innovation <br>Quality</p>
+        </div>
+      </div>
+        <input type="checkbox" id="nav-check">
+     
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+
+          <a class="active" href="./index.html" >home</a>
+          <a class="active" href="./aboutus.html" >About</a>
+          <a class="active" id="portfolio" href="./portfolio.html" >portfolio</a>
+          <a class="active" href="./contacts.html" >contact us</a>
+        </div>
+      </div>
+      <div class="title-section">
+        <div class="title">
+          <h1>our <br>portfolio</h1>
+        </div>
+        <div class="youtube">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/3NfJuu4qpa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <br><span>watch our latest project</span>
+        </div>
+      </div>
+
+      <div class="projects">
+        <h2>projects</h2>
+        <div id="myBtnContainer">
+          <button class="btn actives" id="show-all" onclick="filterSelection('all')"> show all</button><br>
+          <button class="btn" onclick="filterSelection('nature')">hall</button>
+          <button class="btn" onclick="filterSelection('cars')"> room</button>
+          <button class="btn" onclick="filterSelection('people')">kitchen</button>
+        </div>
+        
+        
+        <div class="row">
+          <div class="column nature">
+            <div class="content">
+              <a href="./imgs/new-img/IMG_20230310_050149_784.png">
+              <img src="./imgs/new-img/IMG_20230310_050149_784.png" alt="hall" style="width:100%">
+              <h4>hall</h4>
+            </a>
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_050153_421.png" alt="Lights" style="width:100%">
+              <h4>book shelf</h4>
+              
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_050157_715.png" alt="Nature" style="width:100%">
+              <h4>bed room</h4>
+              
+            </div>
+          </div>
+        
+          <div class="column cars">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_051904_986.png" alt="Car" style="width:100%">
+              <h4>hall</h4>
+              
+            </div>
+          </div>
+          <div class="column cars">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_051905_243.png" alt="Car" style="width:100%">
+              <h4>wardrobe</h4>
+              
+            </div>
+          </div>
+          <div class="column cars">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_051905_600.png" alt="Car" style="width:100%">
+              <h4>tv setup</h4>
+              
+            </div>
+          </div>
+        
+          <div class="column people">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_051905_634.png" alt="People" style="width:100%">
+              <h4>kitchen</h4>
+              
+            </div>
+          </div>
+          <div class="column people">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_051905_648.png" alt="People" style="width:100%">
+              <h4>book shelf</h4>
+              
+            </div>
+          </div>
+          <div class="column people">
+            <div class="content">
+              <img src="./imgs/new-img/IMG_20230310_051905_809.png" alt="People" style="width:100%">
+              <h4>kitchen</h4>
+              
+            </div>
+          </div>
+       </div>
+   
+      <div class="contact">
+        <a href="./contacts.html">contact us</a>
+      </div>
+
+  
+      <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+      <div class="side-button">
+        <a href="https://wa.me/919916190447/?text=Hi"><i class="fa fa-whatsapp"></i></a>
+        <a href="tel:8892442606"><i class="fa-solid fa-phone"></i></a>
+      </div>
+      <script src="./script.js"></script>
+      <script src="./test/script.js"></script>
+</body>
+</html>
